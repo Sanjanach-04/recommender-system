@@ -42,7 +42,7 @@ The system analyzes user ratings and identifies patterns to provide **personaliz
 
 ### 1️⃣ Clone the repository
 
-```bash
+bash
 git clone https://github.com/sanjanach-04/recommender-system.git
 cd recommender-system
 2️⃣ Create virtual environment
