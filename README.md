@@ -42,22 +42,46 @@ The system analyzes user ratings and identifies patterns to provide **personaliz
 
 ### 1️⃣ Clone the repository
 
-bash
-git clone https://github.com/sanjanach-04/recommender-system.git
-cd recommender-system
-2️⃣ Create virtual environment
+```bash
+git clone https://github.com/sanjanach-04/object-detection.git
+cd object-detection
+```
+
+### 2️⃣ Create virtual environment
+
+```bash
 python -m venv venv
-3️⃣ Activate environment
+```
+
+### 3️⃣ Activate environment
+
+```bash
 venv\Scripts\activate   # Windows
 source venv/bin/activate  # Mac/Linux
-4️⃣ Install dependencies
+```
+
+### 4️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Run the Application
-streamlit run app.py
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python app.py
+```
 
 Open your browser and go to:
 
-http://localhost:8501/
+```
+http://127.0.0.1:5000/
+```
+
+---
+
 🧠 How It Works
 
 User selects or inputs a movie
