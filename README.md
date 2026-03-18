@@ -92,6 +92,7 @@ Movies are ranked based on similarity score
 
 Top-N recommended movies are displayed
 
+
 📊 Dataset
 
 The system uses a movie dataset containing:
@@ -102,6 +103,7 @@ User ratings
 
 Movie metadata
 
+
 ⚠️ Challenges Faced
 
 Data sparsity (few ratings per user)
@@ -109,6 +111,7 @@ Data sparsity (few ratings per user)
 Cold start problem for new users/movies
 
 Limited recommendations due to filtering conditions
+
 
 🔮 Future Improvements
 
@@ -120,9 +123,6 @@ Add user authentication and profiles
 
 Deploy using cloud platforms
 
-📸 Demo
-📸 Demo Output
-<p align="center"> <img src="demo1.png" width="600"/> </p> <p align="center"> <img src="demo2.png" width="600"/> </p> <p align="center"> <img src="demo3.png" width="600"/> </p>
 📌 Resume Description
 
 Developed a movie recommendation system using collaborative filtering and cosine similarity to provide personalized recommendations, evaluated using RMSE and Precision@K, and deployed with a Streamlit interface.
