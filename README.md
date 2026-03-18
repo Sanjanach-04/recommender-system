@@ -1,27 +1,104 @@
-# 🎯 Recommender System
+# 🎯 Movie Recommender System
 
-## Overview
-This project is a personalized movie recommendation system using collaborative filtering.
+## 🔥 Key Highlights
 
-## Features
-- Collaborative Filtering
-- Cosine Similarity
-- Top-N Recommendations
-- RMSE & Precision@K
-- Streamlit UI
+* Personalized movie recommendations using collaborative filtering  
+* Uses cosine similarity for accurate recommendations  
+* Recommends top-N similar movies  
+* Evaluated using RMSE and Precision@K  
+* Interactive UI built with Streamlit  
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Streamlit
+---
 
-## Run
-pip install -r requirements.txt  
-python -m streamlit run app.py  
+## 📌 Overview
 
-## Concepts
-- User-item matrix  
-- Cosine similarity  
-- Evaluation metrics  
+This project is a **movie recommendation system** that suggests movies to users based on their preferences. It uses **collaborative filtering techniques** to find similarities between users or items and recommend relevant movies.
 
-## Challenges
-- Cold start  
-- Data sparsity  
+The system analyzes user ratings and identifies patterns to provide **personalized recommendations**.
+
+---
+
+## 🚀 Features
+
+* 🎬 Personalized movie recommendations  
+* 📊 Similarity-based filtering (cosine similarity)  
+* ⭐ Top-N recommendations  
+* 📈 Evaluation using RMSE & Precision@K  
+* 🌐 Interactive UI with Streamlit  
+
+---
+
+## 🛠️ Tech Stack
+
+* Python  
+* Pandas  
+* NumPy  
+* Scikit-learn  
+* Streamlit  
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/sanjanach-04/recommender-system.git
+cd recommender-system
+2️⃣ Create virtual environment
+python -m venv venv
+3️⃣ Activate environment
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Mac/Linux
+4️⃣ Install dependencies
+pip install -r requirements.txt
+▶️ Run the Application
+streamlit run app.py
+
+Open your browser and go to:
+
+http://localhost:8501/
+🧠 How It Works
+
+User selects or inputs a movie
+
+System finds similar movies using cosine similarity
+
+Movies are ranked based on similarity score
+
+Top-N recommended movies are displayed
+
+📊 Dataset
+
+The system uses a movie dataset containing:
+
+Movie titles
+
+User ratings
+
+Movie metadata
+
+⚠️ Challenges Faced
+
+Data sparsity (few ratings per user)
+
+Cold start problem for new users/movies
+
+Limited recommendations due to filtering conditions
+
+🔮 Future Improvements
+
+Hybrid recommendation (content + collaborative)
+
+Handle cold start problem effectively
+
+Add user authentication and profiles
+
+Deploy using cloud platforms
+
+📸 Demo
+📸 Demo Output
+<p align="center"> <img src="demo1.png" width="600"/> </p> <p align="center"> <img src="demo2.png" width="600"/> </p> <p align="center"> <img src="demo3.png" width="600"/> </p>
+📌 Resume Description
+
+Developed a movie recommendation system using collaborative filtering and cosine similarity to provide personalized recommendations, evaluated using RMSE and Precision@K, and deployed with a Streamlit interface.
